@@ -1,12 +1,12 @@
 {
     "name": "ѕυкυη χ мυѕι¢",
-    "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
+    "description": "ᴀ ᴍᴜʟᴛɪ-ʟᴀɴɢᴜᴀɢᴇ ᴛᴏᴛʟᴀ ᴍᴜsɪᴄ ʙᴏᴛ ᴘʀᴇsᴇɴᴛᴇᴅ ʙʏ ᴛᴇᴀᴍsᴜᴋᴜɴ",
+    "logo": "https://te.legra.ph/file/697c712418f57096d785d.png",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Yukki",
+    "TeamSukun",
     "SukunXMusic",
     "telegram-bot",
     "pyrogram"
@@ -40,12 +40,12 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. Please don't use ascii characters",
-        "value": "",
+        "value": "SukunXMusic",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "",
+        "value": "2057416872",
         "required": true
       },
       "STRING_SESSION": {
@@ -93,7 +93,7 @@
       "formation": {
           "worker": {
               "quantity": 1,
-              "size": "free"
+              "size": "echo"
           }
       }
   }
