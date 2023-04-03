@@ -48,7 +48,7 @@ XCB = [
 def dbb():
     global db
     db = {}
-    LOGGER(__name__).info(f"Database Initialized.")
+    LOGGER(__name__).info(f"SukunXMusic Database Initialized.")
 
 
 def sudo():
@@ -73,7 +73,7 @@ def sudo():
         if sudoers:
             for x in sudoers:
                 SUDOERS.add(x)
-    LOGGER(__name__).info(f"Sudoers Loaded.")
+    LOGGER(__name__).info(f"SukunXMusic Sudoers Loaded.")
 
 
 def heroku():
