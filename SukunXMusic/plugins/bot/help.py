@@ -95,7 +95,7 @@ async def helper_cb(client, CallbackQuery, _):
     if cb == "hb5":
         if CallbackQuery.from_user.id not in SUDOERS:
             return await CallbackQuery.answer(
-                "Only for Sudo Users", show_alert=True
+                "ᴊᴀʜᴀ ᴛᴀᴋ ɪᴢᴢᴀᴛ ʜᴏ ᴡᴀʜɪ ᴛᴀᴋ ᴜɴɢʟɪ ᴅᴀʙᴀᴛᴇ ʜ ɴᴀ ʙᴀʙʏ @TeamSukun", show_alert=True
             )
         else:
             await CallbackQuery.edit_message_text(
