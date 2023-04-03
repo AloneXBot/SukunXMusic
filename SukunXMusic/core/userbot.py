@@ -96,7 +96,7 @@ class Userbot(Client):
             assistants.append(2)
             try:
                 await self.two.send_message(
-                    config.LOG_GROUP_ID, f"{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.one.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
+                    config.LOG_GROUP_ID, f"{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ 2 sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.two.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.two.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
                 )
             except:
                 LOGGER(__name__).error(
@@ -127,7 +127,7 @@ class Userbot(Client):
             assistants.append(3)
             try:
                 await self.three.send_message(
-                    config.LOG_GROUP_ID, "{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.one.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
+                    config.LOG_GROUP_ID, f"{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ 3 sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.three.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.three.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
                 )
             except:
                 LOGGER(__name__).error(
@@ -158,7 +158,7 @@ class Userbot(Client):
             assistants.append(4)
             try:
                 await self.four.send_message(
-                    config.LOG_GROUP_ID, "{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.one.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
+                    config.LOG_GROUP_ID, f"{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ 4 sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.four.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.four.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
                 )
             except:
                 LOGGER(__name__).error(
@@ -189,7 +189,7 @@ class Userbot(Client):
             assistants.append(5)
             try:
                 await self.five.send_message(
-                    config.LOG_GROUP_ID, "{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.one.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
+                    config.LOG_GROUP_ID, f"{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ 5 sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.five.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.five.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
                 )
             except:
                 LOGGER(__name__).error(
