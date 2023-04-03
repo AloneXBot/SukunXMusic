@@ -19,7 +19,7 @@ from ..logging import LOGGER
 
 class YukkiBot(Client):
     def __init__(self):
-        LOGGER(__name__).info(f"Starting Bot")
+        LOGGER(__name__).info(f"Starting SukunXMusic Bot")
         super().__init__(
             "SukunXMusic",
             api_id=config.API_ID,
