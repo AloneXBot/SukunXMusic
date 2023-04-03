@@ -38,7 +38,7 @@ class YukkiBot(Client):
             )
         except:
             LOGGER(__name__).error(
-                "Bot has failed to access the log Group. Make sure that you have added your bot to your log channel and promoted as admin!"
+                "ᴜʜ ᴋᴀ ᴘʏᴀᴀʟᴀ ᴄʜᴀ ʙᴏᴛ ɴᴀ ʙᴀʙʏ ʟᴏɢ ɢᴜʟᴜᴘ ᴀᴄᴄᴇss ɴᴏɪ ᴋᴀʟ ᴘᴀᴀ ʟᴀɢᴀ ʜ . ᴊᴀʟᴅɪ ᴄʜᴇ ᴊᴀᴀ ᴋᴇ ᴄʜᴇᴄᴋ ᴋᴀʟʟᴏ ʙᴀʙʏ ᴛᴜᴍɴᴇ ᴍᴜᴊʜᴇ ᴀᴅᴅ ᴛɪʏᴀ ʜ ᴋɪ ɴᴏɪ ʟᴏɢ ɢᴜʟᴜᴘ ᴍᴇ ᴀᴜʟ ᴀᴅᴍɪɴ ʙʜɪ ʙᴀɴɴᴀ ʜ ʙᴀʙʏ!"
             )
             sys.exit()
         if config.SET_CMDS == str(True):
