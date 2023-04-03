@@ -83,7 +83,7 @@ class Userbot(Client):
             else:
                 self.one.name = get_me.first_name
             LOGGER(__name__).info(
-                f"Assistant Started as {self.one.name}"
+                f"SukunXMusic Assistant Started as {self.one.name}"
             )
         if config.STRING2:
             await self.two.start()
@@ -114,7 +114,7 @@ class Userbot(Client):
             else:
                 self.two.name = get_me.first_name
             LOGGER(__name__).info(
-                f"Assistant Two Started as {self.two.name}"
+                f"SukunXMusic Assistant Two Started as {self.two.name}"
             )
         if config.STRING3:
             await self.three.start()
@@ -145,7 +145,7 @@ class Userbot(Client):
             else:
                 self.three.name = get_me.first_name
             LOGGER(__name__).info(
-                f"Assistant Three Started as {self.three.name}"
+                f"SukunXMusic Assistant Three Started as {self.three.name}"
             )
         if config.STRING4:
             await self.four.start()
@@ -162,7 +162,7 @@ class Userbot(Client):
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    f"SukunXMusic Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
                 )
                 sys.exit()
             get_me = await self.four.get_me()
@@ -176,7 +176,7 @@ class Userbot(Client):
             else:
                 self.four.name = get_me.first_name
             LOGGER(__name__).info(
-                f"Assistant Four Started as {self.four.name}"
+                f"SukunXMusic Assistant Four Started as {self.four.name}"
             )
         if config.STRING5:
             await self.five.start()
@@ -207,5 +207,5 @@ class Userbot(Client):
             else:
                 self.five.name = get_me.first_name
             LOGGER(__name__).info(
-                f"Assistant Five Started as {self.five.name}"
+                f"SukunXMusic Assistant Five Started as {self.five.name}"
             )
