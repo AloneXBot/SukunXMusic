@@ -65,7 +65,7 @@ class Userbot(Client):
             assistants.append(1)
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, "{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.one.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
+                    config.LOG_GROUP_ID, f"{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.one.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
                 )
             except:
                 LOGGER(__name__).error(
@@ -96,7 +96,7 @@ class Userbot(Client):
             assistants.append(2)
             try:
                 await self.two.send_message(
-                    config.LOG_GROUP_ID, "{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.one.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
+                    config.LOG_GROUP_ID, f"{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.one.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
                 )
             except:
                 LOGGER(__name__).error(
