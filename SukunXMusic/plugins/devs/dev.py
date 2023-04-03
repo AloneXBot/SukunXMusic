@@ -23,7 +23,7 @@ from time import time
 from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
-
+from config import OWNER_ID
 from SukunXMusic import app
 from SukunXMusic.misc import SUDOERS
 
@@ -44,7 +44,7 @@ async def edit_or_reply(msg: Message, **kwargs):
 
 @app.on_message(
     filters.command("eval")
-    & SUDOERS
+    & OWNER_ID
     & ~filters.forwarded
     & ~filters.via_bot
 )
@@ -152,7 +152,7 @@ async def forceclose_command(_, CallbackQuery):
 
 @app.on_message(
     filters.command("sh")
-    & SUDOERS
+    & OWNER_ID
     & ~filters.forwarded
     & ~filters.via_bot
 )
