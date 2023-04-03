@@ -63,11 +63,11 @@ class YukkiBot(Client):
         a = await self.get_chat_member(config.LOG_GROUP_ID, self.id)
         if a.status != "administrator":
             LOGGER(__name__).error(
-                "Please promote Bot as Admin in Logger Group"
+                "ᴊᴀʟᴅɪ ᴄʜᴇ ᴊᴀᴀ ᴋᴇ ᴄʜᴇᴄᴋ ᴋᴀʟʟᴏ ʙᴀʙʏ ᴛᴜᴍɴᴇ ᴍᴜᴊʜᴇ ᴀᴅᴅ ᴛɪʏᴀ ʜ ᴋɪ ɴᴏɪ ʟᴏɢ ɢᴜʟᴜᴘ ᴍᴇ ᴀᴜʟ ᴀᴅᴍɪɴ ʙʜɪ ʙᴀɴɴᴀ ʜ ʙᴀʙʏ"
             )
             sys.exit()
         if get_me.last_name:
             self.name = get_me.first_name + " " + get_me.last_name
         else:
             self.name = get_me.first_name
-        LOGGER(__name__).info(f"MusicBot Started as {self.name}")
+        LOGGER(__name__).info(f"SukunXMusic Bot Started as {self.name}")
