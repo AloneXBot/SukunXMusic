@@ -53,7 +53,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"Starting Assistant Clients")
+        LOGGER(__name__).info(f"Starting SukunXMusic Assistant Clients")
         if config.STRING1:
             await self.one.start()
             try:
