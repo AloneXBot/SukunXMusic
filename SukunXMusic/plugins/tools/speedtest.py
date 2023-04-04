@@ -9,6 +9,7 @@
 
 import asyncio
 import speedtest
+from config import MUSIC_BOT_NAME
 from pyrogram import filters
 from strings import get_command
 from SukunXMusic import app
@@ -39,7 +40,7 @@ async def speedtest_function(client, message):
     m = await message.reply_text("ᴄʜᴇᴄᴋ ᴋᴀʟ ʟᴀʜɪ ʜᴜ sᴘᴇᴇᴅ ʙᴀʙʏ")
     loop = asyncio.get_event_loop()
     result = await loop.run_in_executor(None, testspeed, m)
-    output = f"""**sᴩᴇᴇᴅᴛᴇsᴛ ʀᴇsᴜʟᴛs**
+    output = f"""**{MUSIC_BOT_NAME} sᴩᴇᴇᴅᴛᴇsᴛ ʀᴇsᴜʟᴛs**
     
 <u>**ᴄʟɪᴇɴᴛ:**</u>
 **__ɪsᴩ:__** {result['client']['isp']}
@@ -53,7 +54,10 @@ async def speedtest_function(client, message):
 **__ʟᴀᴛᴇɴᴄʏ:__** {result['server']['latency']}  
 **__ᴩɪɴɢ:__** {result['ping']}
 
-"""
+╭⎋ {MUSIC_BOT_NAME} 🫧
+╰⊚ sᴛᴀᴛᴜs: ᴏɴʟɪɴᴇ ✨
+
+ʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"""
     msg = await app.send_photo(
         chat_id=message.chat.id, 
         photo=result["share"], 
