@@ -283,21 +283,26 @@ async def overall_stats(client, CallbackQuery, _):
     cm = config.CLEANMODE_DELETE_MINS
     text = f"""**Bot's Stats and Information:**
 
-**ᴍᴏᴅᴜʟᴇs:** {mod}
-**ᴄʜᴀᴛs:** {served_chats} 
-**ᴜsᴇʀs:** {served_users} 
-**ʙʟᴏᴄᴋᴇᴅ:** {blocked} 
-**sᴜᴅᴏᴇʀs:** {sudoers} 
+✘ **ᴍᴏᴅᴜʟᴇs:** {mod} ✘
+✘ **ᴄʜᴀᴛs:** {served_chats} ✘
+✘ **ᴜsᴇʀs:** {served_users} ✘
+✘ **ʙʟᴏᴄᴋᴇᴅ:** {blocked} ✘
+✘ **sᴜᴅᴏᴇʀs:** {sudoers} ✘
     
-**Total Queries:** {total_queries} 
-**Total Assistants:** {assistant}
-**Auto Leaving Assistant:** {ass}
-**Cleanmode duration:** {cm} Mins
+✘ **Total Queries:** {total_queries} ✘
+✘ **Total Assistants:** {assistant} ✘
+✘ **Auto Leaving Assistant:** {ass} ✘
+✘ **Cleanmode duration:** {cm} Mins ✘
 
-**Play Duration Limit:** {play_duration} Mins
-**Song Download Limit:** {song} Mins
-**Bot's Server Playlist Limit:** {playlist_limit}
-**Playlist Play Limit:** {fetch_playlist}"""
+✘ **Play Duration Limit:** {play_duration} Mins ✘
+✘ **Song Download Limit:** {song} Mins ✘
+✘ **Bot's Server Playlist Limit:** {playlist_limit} ✘
+✘ **Playlist Play Limit:** {fetch_playlist} ✘
+
+╭⎋ {MUSIC_BOT_NAME} 🫧
+╰⊚ sᴛᴀᴛᴜs: ᴏɴʟɪɴᴇ ✨
+
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ @TeamSukun"""
     med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
     try:
         await CallbackQuery.edit_message_media(
