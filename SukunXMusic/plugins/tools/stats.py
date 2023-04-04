@@ -371,36 +371,50 @@ async def overall_stats(client, CallbackQuery, _):
     total_queries = await get_queries()
     blocked = len(BANNED_USERS)
     sudoers = len(await get_sudoers())
-    text = f""" **Bot's Stats and Information:**
+    text = f""" {MUSIC_BOT_NAME} ** sᴛᴀᴛs ᴀɴᴅ ɪɴғᴏ:**
+      
+      <b><u>🫶 ʜᴀʀᴅᴡᴀʀᴇ</b><u/>
 
-**Imported Modules:** {mod}
-**Platform:** {sc}
-**Ram:** {ram}
-**Physical Cores:** {p_core}
-**Total Cores:** {t_core}
-**Cpu Frequency:** {cpu_freq}
+🫶 **ᴍᴏᴅᴜʟᴇs:** {mod}
+🫶 **ᴩʟᴀᴛғᴏʀᴍ:** {sc}
+🫶 **ʀᴀᴍ:** {ram}
+🫶 **ᴩʜʏsɪᴄᴀʟ ᴄᴏʀᴇs:** {p_core}
+🫶 **ᴩʜʏsɪᴄᴀʟ ᴄᴏʀᴇs:** {t_core}
+🫶 **ᴄᴩᴜ ғʀᴇǫᴜᴇɴᴄʏ:** {cpu_freq}
 
-**Python Version :** {pyver.split()[0]}
-**Pyrogram Version :** {pyrover}
-**Py-TgCalls Version :** {pytgver}
+       <b><u>💗 sᴏғᴛᴡᴀʀᴇ</b><u/>
 
-**Storage Avail:** {total[:4]} GiB
-**Storage Used:** {used[:4]} GiB
-**Storage Left:** {free[:4]} GiB
+💗 **ᴩʏᴛʜᴏɴ :** {pyver.split()[0]}
+💗 **ᴩʏʀᴏɢʀᴀᴍ:** {pyrover}
+💗 **ᴩʏ-ᴛɢᴄᴀʟʟs :** {pytgver}
 
-**Served Chats:** {served_chats} 
-**Served Users:** {served_users} 
-**Blocked Users:** {blocked} 
-**Sudo Users:** {sudoers} 
+        <b><u>😇 sᴛᴏʀᴀɢᴇ</b><u/>
 
-**Mongo Uptime:** {mongouptime[:4]} Days
-**Total DB Size:** {datasize[:6]} Mb
-**Total DB Storage:** {storage} Mb
-**Total DB Collections:** {collections}
-**Total DB Keys:** {objects}
-**Total DB Queries:** `{query}`
-**Total Bot Queries:** `{total_queries} `
-    """
+😇 **ᴀᴠᴀɪʟᴀʙʟᴇ:** {total[:4]} GiB
+😇 **ᴜsᴇᴅ:** {used[:4]} GiB
+😇 **ᴜsᴇʀs:** {free[:4]} GiB
+
+      <b><u>✨ ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛs</b><u/>
+
+✨ **ᴄʜᴀᴛs:** {served_chats} 
+✨ **ᴜsᴇʀs:** {served_users} 
+✨ **ʙʟᴏᴄᴋᴇᴅ:** {blocked} 
+✨ **sᴜᴅᴏᴇʀs:** {sudoers} 
+
+      <b><u>❤️‍🔥 ᴍᴏɴɢᴏ ᴅᴀᴛᴀʙᴀsᴇ</b><u/>
+
+❤️‍🔥 **ᴜᴩᴛɪᴍᴇ:** {mongouptime[:4]} Days
+❤️‍🔥 **sɪᴢᴇ:** {datasize[:6]} Mb
+❤️‍🔥 **sᴛᴏʀᴀɢᴇ:** {storage} Mb
+❤️‍🔥 **ᴄᴏʟʟᴇᴄᴛɪᴏɴs:** {collections}
+❤️‍🔥 **ᴋᴇʏs:** {objects}
+❤️‍🔥 **ǫᴜᴇʀɪᴇs:** `{query}`
+❤️‍🔥 **ʙᴏᴛ ǫᴜᴇʀɪᴇs:** `{total_queries} `
+    
+╭⎋ {MUSIC_BOT_NAME} 🫧
+╰⊚ sᴛᴀᴛᴜs: ᴏɴʟɪɴᴇ ✨
+
+ʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/TeamSukun)"""
     med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
     try:
         await CallbackQuery.edit_message_media(
