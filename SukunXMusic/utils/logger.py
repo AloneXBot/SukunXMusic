@@ -20,7 +20,7 @@ async def play_logs(message, streamtype):
             chatusername = "ᴘʀɪᴠᴀᴛᴇ ɢᴜʟᴜᴘ ʜ ɴᴏɪ ᴅᴜɴɢᴀ"
         logger_text = f"""
 ❈•≫────≪•◦ ❈ ◦•≫────≪•❈
-**{MUSIC_BOT_NAME} ʟᴏɢɢᴇʀ**
+{MUSIC_BOT_NAME} **ʟᴏɢɢᴇʀ**
 ⧫━━━━━━━━━━━━━━━━━⧫
 ╭⎋ **ɢᴜʟᴜᴘ ɴᴀᴍᴇ:** {message.chat.title} [`{message.chat.id}`]
 ╰⊚ **ɢᴜʟᴜᴘ ʟɪɴᴋ:** {chatusername}
