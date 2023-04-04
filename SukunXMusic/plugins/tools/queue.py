@@ -97,16 +97,16 @@ async def ping_com(client, message: Message, _):
         else:
             IMAGE = get_image(videoid)
     send = (
-        "**⌛️Duration:** Unknown Duration Stream\n\nClick on button below to get whole queued list."
+        "**⌛️ᴅᴜʀᴀᴛɪᴏɴ:** ᴜɴᴋɴᴏᴡɴ ᴅᴜʀᴀᴛɪᴏɴ sᴛʀᴇᴀᴍ\n\nᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇᴅ ʟɪsᴛ.."
         if DUR == "Unknown"
-        else "\nClick on button below to get whole queued list."
+        else "\nᴄʟɪᴄᴋ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇᴅ ʟɪsᴛ."
     )
-    cap = f"""**{config.MUSIC_BOT_NAME} Player**
+    cap = f"""**{config.MUSIC_BOT_NAME} ʙᴀʙʏ**
 
-🎥**Playing:** {title}
+▹▹ **ᴛɪᴛʟᴇ:** {title}
 
-🔗**Stream Type:** {typo}
-🙍‍♂️**Played By:** {user}
+▹▹ **ᴛʏᴩᴇ:** {typo}
+▹▹ **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {user}
 {send}"""
     upl = (
         queue_markup(_, DUR, "c" if cplay else "g", videoid)
@@ -203,11 +203,11 @@ async def queued_tracks(client, CallbackQuery: CallbackQuery, _):
     for x in got:
         j += 1
         if j == 1:
-            msg += f'Currently Playing:\n\n🏷Title: {x["title"]}\nDuration: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'ᴄᴜʀʀᴇɴᴛʟʏ ᴩʟᴀʏɪɴɢ:\n\n╭⎋ ᴛɪᴛʟᴇ: {x["title"]}\n🫧 ᴅᴜʀᴀᴛɪᴏɴ: {x["dur"]}\n╰⊚ ʙʏ: {x["by"]}\n\n'
         elif j == 2:
-            msg += f'Queued:\n\n🏷Title: {x["title"]}\nDuration: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'ǫᴜᴇᴜᴇᴅ:\n\n╭⎋ ᴛɪᴛʟᴇ: {x["title"]}\n🫧 ᴅᴜʀᴀᴛɪᴏɴ: {x["dur"]}\n╰⊚ ʙʏ: {x["by"]}\n\n'
         else:
-            msg += f'🏷Title: {x["title"]}\nDuration: {x["dur"]}\nBy: {x["by"]}\n\n'
+            msg += f'╭⎋ ᴛɪᴛʟᴇ: {x["title"]}\n🫧 ᴅᴜʀᴀᴛɪᴏɴ: {x["dur"]}\n╰⊚ ʙʏ: {x["by"]}\n\n'
     if "Queued" in msg:
         if len(msg) < 700:
             await asyncio.sleep(1)
