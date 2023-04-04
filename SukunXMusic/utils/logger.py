@@ -7,7 +7,7 @@
 #
 # All rights reserved.
 
-from config import LOG, LOG_GROUP_ID
+from config import LOG, LOG_GROUP_ID, MUSIC_BOT_NAME
 from SukunXMusic import app
 from SukunXMusic.utils.database import is_on_off
 
@@ -17,20 +17,21 @@ async def play_logs(message, streamtype):
         if message.chat.username:
             chatusername = f"@{message.chat.username}"
         else:
-            chatusername = "Private Group"
+            chatusername = "ᴘʀɪᴠᴀᴛᴇ ɢᴜʟᴜᴘ ʜ ɴᴏɪ ᴅᴜɴɢᴀ"
         logger_text = f"""
 ❈•≫────≪•◦ ❈ ◦•≫────≪•❈
-**Sukun PLAY LOG**
+**{MUSIC_BOT_NAME} ʟᴏɢɢᴇʀ**
 ⧫━━━━━━━━━━━━━━━━━⧫
-╭⎋ **Chat:** {message.chat.title} [`{message.chat.id}`]
-╰⊚ **User:** {message.from_user.mention}
-╭⎋ **Username:** @{message.from_user.username}
-🫧 **User ID:** `{message.from_user.id}`
-╰⊚ **Chat Link:** {chatusername}
-
-**Query:** {message.text}
-
-**StreamType:** {streamtype}"""
+╭⎋ **ɢᴜʟᴜᴘ ɴᴀᴍᴇ:** {message.chat.title} [`{message.chat.id}`]
+╰⊚ **ɢᴜʟᴜᴘ ʟɪɴᴋ:** {chatusername}
+⧫━━━━━━━━━━━━━━━━━⧫
+╭⎋ **ᴜsᴇʀɴᴀᴍᴇ:** @{message.from_user.username}
+🫧 **ᴜsᴇʀ ɪᴅ:** `{message.from_user.id}`
+╰⊚ **ᴜsᴇʀ:** {message.from_user.mention}
+⧫━━━━━━━━━━━━━━━━━⧫
+╭⎋ **sᴇᴀʀᴄʜ ᴛɪʏᴀ:** {message.text}
+╰⊚ **sᴛʀᴇᴀᴍᴛʏᴘᴇ** {streamtype}
+❈•≫────≪•◦ ❈ ◦•≫────≪•❈"""
         if message.chat.id != LOG_GROUP_ID:
             try:
                 await app.send_message(
