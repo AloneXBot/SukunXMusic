@@ -87,47 +87,44 @@ async def varsFunc(client, message):
     owner_id = " ,".join(owners)
     tg_aud = convert_bytes(config.TG_AUDIO_FILESIZE_LIMIT)
     tg_vid = convert_bytes(config.TG_VIDEO_FILESIZE_LIMIT)
-    text = f"""**MUSIC BOT CONFIG:**
-
-**<u>Basic Vars:</u>**
-`MUSIC_BOT_NAME` : **{bot_name}**
-`DURATION_LIMIT` : **{play_duration} min**
-`SONG_DOWNLOAD_DURATION_LIMIT` :** {song} min**
-`OWNER_ID` : **{owner_id}**
+    text = f"""**ᴍᴜsɪᴄ ʙᴏᴛ ᴄᴏɴғɪɢ ᴠᴀʀɪᴀʙʟᴇs:**
+**<u>ʙᴀsɪᴄ ᴠᴀʀɪᴀʙʟᴇs:</u>**
+**ᴍᴜsɪᴄ_ʙᴏᴛ_ɴᴀᴍᴇ** : `{MUSIC_BOT_NAME}`
+**ᴅᴜʀᴀᴛɪᴏɴ_ʟɪᴍɪᴛ** : `{play_duration} ᴍɪɴᴜᴛᴇs`
+**sᴏɴɢ_ᴅᴏᴡɴʟᴏᴀᴅ_ᴅᴜʀᴀᴛɪᴏɴ_ʟɪᴍɪᴛ** :` {song} ᴍɪɴᴜᴛᴇs`
+**ᴏᴡɴᴇʀ_ɪᴅ** : `{owner_id}`
     
-**<u>Custom Repo Vars:</u>**
-`UPSTREAM_REPO` : **{up_r}**
-`UPSTREAM_BRANCH` : **{up_b}**
-`GITHUB_REPO` :** {git}**
-`GIT_TOKEN `:** {token}**
+**<u>ʀᴇᴩᴏsɪᴛᴏʀʏ ᴠᴀʀɪᴀʙʟᴇs:</u>**
+**ᴜᴩsᴛʀᴇᴀᴍ_ʀᴇᴩᴏ** : `{up_r}`
+**ᴜᴩsᴛʀᴇᴀᴍ_ʙʀᴀɴᴄʜ** : `{up_b}`
+**ɢɪᴛʜᴜʙ_ʀᴇᴩᴏ** :` {git}`
+**ɢɪᴛ_ᴛᴏᴋᴇɴ**:` {token}`
 
+**<u>ʙᴏᴛ ᴠᴀʀɪᴀʙʟᴇs:</u>**
+**ᴀᴜᴛᴏ_ʟᴇᴀᴠɪɴɢ_ᴀssɪsᴛᴀɴᴛ** : `{ass}`
+**ᴀssɪsᴛᴀɴᴛ_ʟᴇᴀᴠᴇ_ᴛɪᴍᴇ** : `{auto_leave} sᴇᴄᴏɴᴅs`
+**ᴀᴜᴛᴏ_sᴜɢɢᴇsᴛɪᴏɴ_ᴍᴏᴅᴇ** :` {a_sug}`
+**ᴀᴜᴛᴏ_sᴜɢɢᴇsᴛɪᴏɴ_ᴛɪᴍᴇ** : `{auto_sug} sᴇᴄᴏɴᴅs`
+**ᴀᴜᴛᴏ_ᴅᴏᴡɴʟᴏᴀᴅs_ᴄʟᴇᴀʀ** : `{down}`
+**ᴩʀɪᴠᴀᴛᴇ_ʙᴏᴛ_ᴍᴏᴅᴇ** : `{pvt}`
+**ʏᴏᴜᴛᴜʙᴇ_ᴇᴅɪᴛ_sʟᴇᴇᴩ** : `{yt_sleep} sᴇᴄᴏɴᴅs`
+**ᴛᴇʟᴇɢʀᴀᴍ_ᴇᴅɪᴛ_sʟᴇᴇᴩ** :` {tg_sleep} sᴇᴄᴏɴᴅs`
+**ᴄʟᴇᴀɴᴍᴏᴅᴇ_ᴍɪɴs** : `{cm} ᴍɪɴᴜᴛᴇs`
+**ᴠɪᴅᴇᴏ_sᴛʀᴇᴀᴍ_ʟɪᴍɪᴛ** : `{v_limit} ᴄʜᴀᴛs`
+**sᴇʀᴠᴇʀ_ᴩʟᴀʏʟɪsᴛ_ʟɪᴍɪᴛ** :` {playlist_limit}`
+**ᴩʟᴀʏʟɪsᴛ_ғᴇᴛᴄʜ_ʟɪᴍɪᴛ** :` {fetch_playlist}`
 
-**<u>Bot Vars:</u>**
-`AUTO_LEAVING_ASSISTANT` : **{ass}**
-`ASSISTANT_LEAVE_TIME` : **{auto_leave} seconds**
-`AUTO_SUGGESTION_MODE` :** {a_sug}**
-`AUTO_SUGGESTION_TIME` : **{auto_sug} seconds**
-`AUTO_DOWNLOADS_CLEAR` : **{down}**
-`PRIVATE_BOT_MODE` : **{pvt}**
-`YOUTUBE_EDIT_SLEEP` : **{yt_sleep} seconds**
-`TELEGRAM_EDIT_SLEEP` :** {tg_sleep} seconds**
-`CLEANMODE_MINS` : **{cm} mins**
-`VIDEO_STREAM_LIMIT` : **{v_limit} chats**
-`SERVER_PLAYLIST_LIMIT` :** {playlist_limit}**
-`PLAYLIST_FETCH_LIMIT` :** {fetch_playlist}**
-
-**<u>Spotify Vars:</u>**
-`SPOTIFY_CLIENT_ID` :** {sotify}**
-`SPOTIFY_CLIENT_SECRET` : **{sotify}**
+**<u>sᴩᴏᴛɪғʏ ᴠᴀʀɪᴀʙʟᴇs:</u>**
+**sᴩᴏᴛɪғʏ_ᴄʟɪᴇɴᴛ_ɪᴅ** :` {sotify}`
+**sᴩᴏᴛɪғʏ_ᴄʟɪᴇɴᴛ_sᴇᴄʀᴇᴛ** : `{sotify}`
 
 **<u>Playsize Vars:</u>**
-`TG_AUDIO_FILESIZE_LIMIT` :** {tg_aud}**
-`TG_VIDEO_FILESIZE_LIMIT` :** {tg_vid}**
-
-**<u>URL Vars:</u>**
-`SUPPORT_CHANNEL` : **{s_c}**
-`SUPPORT_GROUP` : ** {s_g}**
-`START_IMG_URL` : ** {start}**
+**ᴛɢ_ᴀᴜᴅɪᴏ_ғʟɪᴇsɪᴢᴇ_ʟɪᴍɪᴛ** :` {tg_aud}`
+**ᴛɢ_ᴠɪᴅᴇᴏ_ғɪʟᴇsɪᴢᴇ_ʟɪᴍɪᴛ** :` {tg_vid}`
+**<u>ᴇxᴛʀᴀ ᴠᴀʀɪᴀʙʟᴇs:</u>**
+**sᴜᴩᴩᴏʀᴛ_ᴄʜᴀɴɴᴇʟ** : `{s_c}`
+**sᴜᴩᴩᴏʀᴛ_ɢʀᴏᴜᴩ** : ` {s_g}`
+**sᴛᴀʀᴛ_ɪᴍɢ_ᴜʀʟ** : ` {start}`
     """
     await asyncio.sleep(1)
     await mystic.edit_text(text)
