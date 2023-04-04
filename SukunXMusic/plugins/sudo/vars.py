@@ -24,7 +24,7 @@ VARS_COMMAND = get_command("VARS_COMMAND")
 @app.on_message(filters.command(VARS_COMMAND) & SUDOERS)
 async def varsFunc(client, message):
     mystic = await message.reply_text(
-        "Please wait.. Getting your config"
+        "ʟᴜᴋᴏ ʙᴀʙʏ ᴠᴀʀs ɴɪᴋᴀʟ ʟᴀʜɪ ʜᴜᴜ @TeamSukun ᴋᴇ sᴇʀᴠᴇʀ ᴄʜᴇ ᴡᴀɪᴛ ᴋᴀʟʟᴏ ᴏᴛᴇʏ ɴᴀ ʟᴜʙʙ ᴜʜʜ ʙᴀʙʏ ᴍᴜᴜᴜᴜᴀᴀᴀᴀʜ"
     )
     v_limit = await get_video_limit()
     bot_name = config.MUSIC_BOT_NAME
@@ -59,19 +59,19 @@ async def varsFunc(client, message):
     if not config.GITHUB_REPO:
         git = "No"
     else:
-        git = f"[Repo]({config.GITHUB_REPO})"
+        git = f"[ʀᴇᴩᴏ]({config.GITHUB_REPO})"
     if not config.START_IMG_URL:
         start = "No"
     else:
-        start = f"[Image]({config.START_IMG_URL})"
+        start = f"[ɪᴍᴀɢᴇ]({config.START_IMG_URL})"
     if not config.SUPPORT_CHANNEL:
         s_c = "No"
     else:
-        s_c = f"[Channel]({config.SUPPORT_CHANNEL})"
+        s_c = f"[ᴄʜᴀɴɴᴇʟ]({config.SUPPORT_CHANNEL})"
     if not config.SUPPORT_GROUP:
         s_g = "No"
     else:
-        s_g = f"[Group]({config.SUPPORT_GROUP})"
+        s_g = f"[sᴜᴩᴩᴏʀᴛ]({config.SUPPORT_GROUP})"
     if not config.GIT_TOKEN:
         token = "No"
     else:
@@ -120,7 +120,7 @@ async def varsFunc(client, message):
   ➺ **sᴩᴏᴛɪғʏ_ᴄʟɪᴇɴᴛ_ɪᴅ** :` {sotify}`
   ➺ **sᴩᴏᴛɪғʏ_ᴄʟɪᴇɴᴛ_sᴇᴄʀᴇᴛ** : `{sotify}`
 
-𖢵 **<u>Playsize Vars:</u>**
+𖢵 **<u>ᴘʟᴀʏsɪᴢᴇ ᴠᴀʀs:</u>**
   ➺ **ᴛɢ_ᴀᴜᴅɪᴏ_ғʟɪᴇsɪᴢᴇ_ʟɪᴍɪᴛ** :` {tg_aud}`
   ➺ **ᴛɢ_ᴠɪᴅᴇᴏ_ғɪʟᴇsɪᴢᴇ_ʟɪᴍɪᴛ** :` {tg_vid}`
 
