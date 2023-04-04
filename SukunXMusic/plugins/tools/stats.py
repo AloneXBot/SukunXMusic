@@ -285,9 +285,9 @@ async def overall_stats(client, CallbackQuery, _):
 
 **ᴍᴏᴅᴜʟᴇs:** {mod}
 **ᴄʜᴀᴛs:** {served_chats} 
-**Served Users:** {served_users} 
-**Blocked Users:** {blocked} 
-**Sudo Users:** {sudoers} 
+**ᴜsᴇʀs:** {served_users} 
+**ʙʟᴏᴄᴋᴇᴅ:** {blocked} 
+**sᴜᴅᴏᴇʀs:** {sudoers} 
     
 **Total Queries:** {total_queries} 
 **Total Assistants:** {assistant}
