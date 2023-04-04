@@ -338,11 +338,11 @@ async def play_commnd(
                 await Sukun.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(
-                    "There's an issue with the bot. Please report it to my owner and ask them to check logger group."
+                    "ʙᴀʙʏ ᴋᴜᴄʜ ɪssᴜᴇ ʜ ᴍᴇʟᴇ ᴏᴡɴᴇʀ ᴋᴏ ʙᴏʟᴏ ᴋɪ ʟᴏɢɢᴇʀ ɢᴜʟᴜᴘ ᴄʜᴇᴄᴋ ᴋᴀʟʟᴇ ."
                 )
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    "Please turn on Voice Chat.. Bot is not able to stream urls..",
+                    "ᴠᴄ ᴛᴏʜ ᴏɴ ᴋᴀʟʟᴏ ʙᴀʙʏ...",
                 )
             except Exception as e:
                 return await mystic.edit_text(
