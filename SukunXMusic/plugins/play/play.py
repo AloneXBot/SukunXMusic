@@ -217,7 +217,7 @@ async def play_commnd(
                 and not config.SPOTIFY_CLIENT_SECRET
             ):
                 return await mystic.edit_text(
-                    "This bot isn't able to play spotify queries. Please ask my owner to enable spotify."
+                    "ᴍᴀɪɴ ɴᴀ ʙᴀʙʏ sᴘᴏᴛɪғʏ ǫᴜᴇʀɪᴇs ᴋᴏ ᴘʟᴀʏ ɴᴏɪ ᴋᴀʟ sᴀᴋᴛɪ ᴛʏᴜᴋɪ ᴍᴇʟᴇ ᴏᴡɴᴇʀ ɴᴇ ɴᴀ ᴠᴏʜ ᴘᴏᴡᴇʀ ɴᴏɪ ᴅɪʏᴀ ɴᴀ .ᴏᴡɴᴇʀ ᴋᴏ ʙᴏʟᴏ ʙᴀʙʏ ᴋɪ ᴘᴏᴡᴇʀ ᴅᴇᴅᴇ."
                 )
             if "track" in url:
                 try:
