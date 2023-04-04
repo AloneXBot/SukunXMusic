@@ -7,8 +7,6 @@
 #
 # All rights reserved.
 
-from datetime import datetime
-
 from pyrogram import filters
 from pyrogram.types import Message
 
@@ -18,6 +16,8 @@ from SukunXMusic import app
 from SukunXMusic.core.call import Sukun
 from SukunXMusic.utils import bot_sys_stats
 from SukunXMusic.utils.decorators.language import language
+from SukunXMusic.utils.inline.play import close_keyboard
+
 
 ### Commands
 PING_COMMAND = get_command("PING_COMMAND")
@@ -41,6 +41,7 @@ async def ping_com(client, message: Message, _):
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(
         _["ping_2"].format(
-            MUSIC_BOT_NAME, resp, UP, DISK, CPU, RAM, pytgping
-        )
+            resp, MUSIC_BOT_NAME, UP, DISK, CPU, RAM, pytgping
+        ),
+        reply_markup=close_keyboard
     )
