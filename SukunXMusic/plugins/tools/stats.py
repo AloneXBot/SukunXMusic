@@ -115,7 +115,7 @@ async def gstats_global(client, message: Message, _):
         vidid,
     ) = await YouTube.details(videoid, True)
     title = title.title()
-    final = f"sᴀʙsᴇ ᴊʏᴅᴀ ᴘʟᴀʏ ʜᴜᴀ ɴᴀ ➳⃝😻 {MUSIC_BOT_NAME} 『 🇮🇳 』ᴍᴇ\n\n**𖢵 ᴛɪᴛʟᴇ:** {title}\n\n𖢵 ᴩʟᴀʏᴇᴅ ** {co} **ᴛɪᴍᴇs.\n\n╭⎋"
+    final = f"sᴀʙsᴇ ᴊʏᴅᴀ ᴘʟᴀʏ ʜᴜᴀ ɴᴀ ➳⃝😻 {MUSIC_BOT_NAME} 『 🇮🇳 』ᴍᴇ\n\n**𖢵 ᴛɪᴛʟᴇ:** {title}\n\n𖢵 ᴩʟᴀʏᴇᴅ ** {co} **ᴛɪᴍᴇs.\n\n╭⎋ {MUSIC_BOT_NAME} 🫧\n╰⊚ sᴛᴀᴛᴜs: ᴏɴʟɪɴᴇ ✨\n\n๏ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:\n ➻❥ @TeamSukun\n ➻❥ @sukunupdates\n ➻❥ @sukunsupports"
     upl = get_stats_markup(
         _, True if message.from_user.id in SUDOERS else False
     )
