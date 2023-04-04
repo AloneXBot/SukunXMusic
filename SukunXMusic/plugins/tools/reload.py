@@ -50,7 +50,7 @@ async def reload_admin_cache(client, message: Message, _):
         await message.reply_text(_["admin_20"])
     except:
         await message.reply_text(
-            "Failed to reload admincache. Make sure Bot is admin in your chat."
+            "ᴀᴅᴍɪɴ ʟɪsᴛ ʟᴏᴀᴅ ɴᴏɪ ʟᴇ ᴘᴀᴀ ʟᴀʜɪ ʙᴀʙʏ.ᴄʜᴇᴄᴋ ᴋᴀʟʟᴏ ᴍᴇʟᴇ ʟᴏ ᴀᴅᴍɪɴ ʙᴀɴᴀʏᴀ ʜ ɴᴀ ʙᴀʙʏ"
         )
 
 
@@ -63,7 +63,7 @@ async def reload_admin_cache(client, message: Message, _):
 @AdminActual
 async def restartbot(client, message: Message, _):
     mystic = await message.reply_text(
-        f"Please Wait.. Restarting {MUSIC_BOT_NAME} for your chat.."
+        f"ʟᴜᴋᴏ ʙᴀʙʏ ..... ᴍᴀɪɴ ʀᴇsᴛᴀʀᴛ ᴋᴀʟᴛɪ ʜᴜ {MUSIC_BOT_NAME} ᴋᴏ.."
     )
     await asyncio.sleep(1)
     try:
@@ -83,7 +83,7 @@ async def restartbot(client, message: Message, _):
         except:
             pass
     return await mystic.edit_text(
-        "Successfully restarted. Try playing now.."
+        "ᴀᴀ ɢʏɪ ʙᴀʙʏ ᴀʙ ᴘʟᴀʏ ᴋᴀʟʟᴏ sᴏɴɢ.."
     )
 
 
@@ -114,11 +114,11 @@ async def stop_download(client, CallbackQuery: CallbackQuery, _):
     task = lyrical.get(message_id)
     if not task:
         return await CallbackQuery.answer(
-            "Downloading already Completed.", show_alert=True
+            "ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ʜᴏ ᴄʜᴜᴋᴀ ʜ ʙᴀʙʏ ғʀᴏᴍ @ᴛᴇᴀᴍsᴜᴋᴜɴ.", show_alert=True
         )
     if task.done() or task.cancelled():
         return await CallbackQuery.answer(
-            "Downloading already Completed or Cancelled.",
+            "ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ʜᴏ ᴄʜᴜᴋᴀ ʜ ʙᴀʙʏ ғʀᴏᴍ @ᴛᴇᴀᴍsᴜᴋᴜɴ ʏᴀ ᴄᴀɴᴄᴇʟ ʜᴏ ᴅɪʏᴀ ɴᴀ",
             show_alert=True,
         )
     if not task.done():
@@ -129,15 +129,15 @@ async def stop_download(client, CallbackQuery: CallbackQuery, _):
             except:
                 pass
             await CallbackQuery.answer(
-                "Downloading Cancelled", show_alert=True
+                "ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴄᴀɴᴄᴇʟʟᴇᴅ", show_alert=True
             )
             return await CallbackQuery.edit_message_text(
-                f"Download Cancelled by {CallbackQuery.from_user.mention}"
+                f"ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴄᴀɴᴄᴇʟʟᴇᴅ by {CallbackQuery.from_user.mention}"
             )
         except:
             return await CallbackQuery.answer(
-                "Failed to stop the Downloading.", show_alert=True
+                "ғᴀɪʟᴇᴅ ᴛᴏ sᴛᴏᴘ ᴛʜᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ.", show_alert=True
             )
     await CallbackQuery.answer(
-        "Failed to recognize the running task", show_alert=True
+        "ғᴀɪʟᴇᴅ ᴛᴏ ʀᴇᴄᴏɢɴɪᴢᴇ ᴛʜᴇ ʀᴜɴɴɪɴɢ ᴛᴀsᴋ", show_alert=True
     )
