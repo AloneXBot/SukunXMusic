@@ -17,7 +17,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 import config
 from config import BANNED_USERS
 from SukunXMusic import LOGGER, app, userbot
-from SukunXMusic.core.call import Yukki
+from SukunXMusic.core.call import Sukun
 from SukunXMusic.plugins import ALL_MODULES
 from SukunXMusic.utils.database import get_banned_users, get_gbanned
 
@@ -59,9 +59,9 @@ async def init():
         "Successfully Imported Modules "
     )
     await userbot.start()
-    await Yukki.start()
+    await Sukun.start()
     try:
-        await Yukki.stream_call(
+        await Sukun.stream_call(
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
         )
     except NoActiveGroupCall:
@@ -71,11 +71,11 @@ async def init():
         sys.exit()
     except:
         pass
-    await Yukki.decorators()
-    LOGGER("SukunXMusic").info("Yukki Music Bot Started Successfully")
+    await Sukun.decorators()
+    LOGGER("SukunXMusic").info("Sukun Music Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("SukunXMusic").info("Stopping Yukki Music Bot! GoodBye")
+    LOGGER("SukunXMusic").info("Stopping Sukun Music Bot! GoodBye")

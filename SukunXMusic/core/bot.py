@@ -17,7 +17,7 @@ import config
 from ..logging import LOGGER
 
 
-class YukkiBot(Client):
+class SukunBot(Client):
     def __init__(self):
         LOGGER(__name__).info(f"Starting SukunXMusic Bot")
         super().__init__(

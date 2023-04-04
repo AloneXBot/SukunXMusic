@@ -7,7 +7,7 @@
 #
 # All rights reserved.
 
-from SukunXMusic.core.bot import YukkiBot
+from SukunXMusic.core.bot import SukunBot
 from SukunXMusic.core.dir import dirr
 from SukunXMusic.core.git import git
 from SukunXMusic.core.userbot import Userbot
@@ -31,7 +31,7 @@ heroku()
 sudo()
 
 # Bot Client
-app = YukkiBot()
+app = SukunBot()
 
 # Assistant Client
 userbot = Userbot()

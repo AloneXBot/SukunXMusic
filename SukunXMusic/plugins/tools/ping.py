@@ -15,7 +15,7 @@ from pyrogram.types import Message
 from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 from strings import get_command
 from SukunXMusic import app
-from SukunXMusic.core.call import Yukki
+from SukunXMusic.core.call import Sukun
 from SukunXMusic.utils import bot_sys_stats
 from SukunXMusic.utils.decorators.language import language
 
@@ -36,7 +36,7 @@ async def ping_com(client, message: Message, _):
         caption=_["ping_1"],
     )
     start = datetime.now()
-    pytgping = await Yukki.ping()
+    pytgping = await Sukun.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(

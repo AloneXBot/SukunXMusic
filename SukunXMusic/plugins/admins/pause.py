@@ -13,7 +13,7 @@ from pyrogram.types import Message
 from config import BANNED_USERS
 from strings import get_command
 from SukunXMusic import app
-from SukunXMusic.core.call import Yukki
+from SukunXMusic.core.call import Sukun
 from SukunXMusic.utils.database import is_music_playing, music_off
 from SukunXMusic.utils.decorators import AdminRightsCheck
 
@@ -34,7 +34,7 @@ async def pause_admin(cli, message: Message, _, chat_id):
     if not await is_music_playing(chat_id):
         return await message.reply_text(_["admin_1"])
     await music_off(chat_id)
-    await Yukki.pause_stream(chat_id)
+    await Sukun.pause_stream(chat_id)
     await message.reply_text(
         _["admin_2"].format(message.from_user.mention)
     )
