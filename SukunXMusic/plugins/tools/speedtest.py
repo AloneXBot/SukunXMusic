@@ -42,17 +42,17 @@ async def speedtest_function(client, message):
     result = await loop.run_in_executor(None, testspeed, m)
     output = f"""**{MUSIC_BOT_NAME} sᴩᴇᴇᴅᴛᴇsᴛ ʀᴇsᴜʟᴛs**
     
-<u>**ᴄʟɪᴇɴᴛ:**</u>
-**__ɪsᴩ:__** {result['client']['isp']}
-**__ᴄᴏᴜɴᴛʀʏ:__** {result['client']['country']}
+𖢵 <u>**ᴄʟɪᴇɴᴛ:**</u>
+  ➺ **__ɪsᴩ:__** {result['client']['isp']}
+  ➺ **__ᴄᴏᴜɴᴛʀʏ:__** {result['client']['country']}
   
-<u>**sᴇʀᴠᴇʀ**</u>
+𖢵 <u>**sᴇʀᴠᴇʀ**</u>
 
-**__ɴᴀᴍᴇ:__** {result['server']['name']}
-**__ᴄᴏᴜɴᴛʀʏ:__** {result['server']['country']}, {result['server']['cc']}
-**__sᴩᴏɴsᴏʀ:__** {result['server']['sponsor']}
-**__ʟᴀᴛᴇɴᴄʏ:__** {result['server']['latency']}  
-**__ᴩɪɴɢ:__** {result['ping']}
+  ➺ **__ɴᴀᴍᴇ:__** {result['server']['name']}
+  ➺ **__ᴄᴏᴜɴᴛʀʏ:__** {result['server']['country']}, {result['server']['cc']}
+  ➺ **__sᴩᴏɴsᴏʀ:__** {result['server']['sponsor']}
+  ➺ **__ʟᴀᴛᴇɴᴄʏ:__** {result['server']['latency']}  
+  ➺ **__ᴩɪɴɢ:__** {result['ping']}
 
 ╭⎋ {MUSIC_BOT_NAME} 🫧
 ╰⊚ sᴛᴀᴛᴜs: ᴏɴʟɪɴᴇ ✨
