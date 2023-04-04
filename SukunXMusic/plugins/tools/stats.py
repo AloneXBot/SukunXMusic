@@ -283,8 +283,8 @@ async def overall_stats(client, CallbackQuery, _):
     cm = config.CLEANMODE_DELETE_MINS
     text = f"""**Bot's Stats and Information:**
 
-**Imported Modules:** {mod}
-**Served Chats:** {served_chats} 
+**ᴍᴏᴅᴜʟᴇs:** {mod}
+**ᴄʜᴀᴛs:** {served_chats} 
 **Served Users:** {served_users} 
 **Blocked Users:** {blocked} 
 **Sudo Users:** {sudoers} 
