@@ -281,7 +281,7 @@ async def overall_stats(client, CallbackQuery, _):
     else:
         ass = "No"
     cm = config.CLEANMODE_DELETE_MINS
-    text = f"""**Bot's Stats and Information:**
+    text = f"""{MUSIC_BOT_NAME} **sᴛᴀᴛs ᴀɴᴅ ɪɴғᴏ:**
 
 ✘ **ᴍᴏᴅᴜʟᴇs:** {mod} ✘
 ✘ **ᴄʜᴀᴛs:** {served_chats} ✘
@@ -289,15 +289,15 @@ async def overall_stats(client, CallbackQuery, _):
 ✘ **ʙʟᴏᴄᴋᴇᴅ:** {blocked} ✘
 ✘ **sᴜᴅᴏᴇʀs:** {sudoers} ✘
     
-✘ **Total Queries:** {total_queries} ✘
-✘ **Total Assistants:** {assistant} ✘
-✘ **Auto Leaving Assistant:** {ass} ✘
-✘ **Cleanmode duration:** {cm} Mins ✘
+✘ **ǫᴜᴇʀɪᴇs:** {total_queries} ✘
+✘ **ᴀssɪsᴛᴀɴᴛs:** {assistant} ✘
+✘ **ᴀss ᴀᴜᴛᴏ ʟᴇᴀᴠᴇ:** {ass} ✘
+✘ **ᴄʟᴇᴀɴᴍᴏᴅᴇ:** {cm} Mins ✘
 
-✘ **Play Duration Limit:** {play_duration} Mins ✘
-✘ **Song Download Limit:** {song} Mins ✘
-✘ **Bot's Server Playlist Limit:** {playlist_limit} ✘
-✘ **Playlist Play Limit:** {fetch_playlist} ✘
+✘ **ᴅᴜʀᴀᴛɪᴏɴ ʟɪᴍɪᴛ:** {play_duration} Mins ✘
+✘ **ᴅᴏᴡɴʟᴏᴀᴅ ʟɪᴍɪᴛ:** {song} Mins ✘
+✘ **ᴩʟᴀʏʟɪsᴛ ʟɪᴍɪᴛ:** {playlist_limit} ✘
+✘ **ᴩʟᴀʏʟɪsᴛ ᴩʟᴀʏ ʟɪᴍɪᴛ:** {fetch_playlist} ✘
 
 ╭⎋ {MUSIC_BOT_NAME} 🫧
 ╰⊚ sᴛᴀᴛᴜs: ᴏɴʟɪɴᴇ ✨
