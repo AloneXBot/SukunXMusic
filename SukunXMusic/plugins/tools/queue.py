@@ -277,7 +277,7 @@ async def queue_back(client, CallbackQuery: CallbackQuery, _):
         else:
             IMAGE = get_image(videoid)
     send = (
-        "**⌛️Duration:** Unknown Duration Stream\n\nClick on button below to get whole queued list."
+        "**⌛️ᴜʀᴀᴛɪᴏɴ:** ᴜɴᴋɴᴏᴡɴ ᴅᴜʀᴀᴛɪᴏɴ sᴛʀᴇᴀᴍ\n\nᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇᴅ ʟɪsᴛ."
         if DUR == "Unknown"
         else "\nClick on button below to get whole queued list."
     )
