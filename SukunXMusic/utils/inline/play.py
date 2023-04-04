@@ -167,6 +167,17 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
     return buttons
 
 
+close_keyboard = InlineKeyboardMarkup( 
+            [
+                [
+                    InlineKeyboardButton(
+                        text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
+                    )
+                ]    
+            ]
+        )
+
+
 ## Live Stream Markup
 
 
