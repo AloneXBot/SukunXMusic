@@ -360,11 +360,30 @@ You can edit [`en.yml`](https://github.com/TeamSukun/SukunXMusic/blob/master/str
 <summary><b>ʀᴇǫᴜɪʀᴇᴍᴇɴᴛs</b></summary>
 <br>
     
-- [ᴘʏᴛʜᴏɴ𝟹.𝟿](https://www.python.org/downloads/release/python-390/)
-- [ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ᴋᴇʏ](https://docs.pyrogram.org/intro/setup#api-keys)
-- [ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ](https://telegram.dog/botfather)
-- [ᴍᴏɴɢᴏᴅʙ URI](https://te.legra.ph/How-To-get-Mongodb-URI-04-06)
-- [sᴛʀɪɴɢ sᴇssɪᴏɴ](https://telegram.dog/STRING_SESSION_MAKER_BOT)
+- aiofiles
+- aiohttp
+- asyncio
+- dnspython
+- ffmpeg-python
+- gitpython
+- hachoir
+- heroku3
+- lyricsgenius
+- motor==3.1.2
+- pillow
+- psutil
+- py-tgcalls==0.9.7
+- pykeyboard
+- pyrogram==1.4.16
+- python-dotenv
+- pyyaml==6.0
+- requests
+- speedtest-cli
+- spotipy
+- tgcrypto
+- youtube-search
+- youtube-search-python
+- git+https://github.com/yt-dlp/yt-dlp.git
     
 </details>
 
