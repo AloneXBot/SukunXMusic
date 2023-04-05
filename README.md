@@ -76,8 +76,6 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ѕυкυη χ мυ�
 - `/vk <song name>` - generate song without download
 </details>
 
-### Only Admin Can Exicute 🙄
-
 <details>
 <summary><b>ᴀᴅᴍɪɴ ᴄᴍᴅs</b></summary>
 <br>
@@ -92,7 +90,6 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ѕυкυη χ мυ�
 - `/deauth` - deauthorized people to access the admin commands
 </details>
 
-### Sudo Commands 🤭
 <details>
 <summary><b>sᴜᴅᴏ ᴄᴍᴅs ᴏɴʟʏ</b></summary>
 <br>
@@ -100,18 +97,52 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ѕυкυη χ мυ�
 - `/broadcast` - order the assistant to leave all groups
 - `/gban` - gban user
 </details>
-    
-### Only Owner 🙈
+
 <details>
 <summary><b>ᴏɴʟʏ ᴏᴡɴᴇʀ</b></summary>
 <br>
 
-- `/broadcast` - send a broadcast message from the bot
+- `/broadcast` - broadcast message from the bot
 - `/block` - block people for using your bot
 - `/unblock` - unblock people you blocked for using your bot
 - `/blocklist` - show the list of all people who's blocked for using your bot
 </details>
 
+### Only Admin Can Exicute 🙄
+
+<details>
+<summary><b>ᴏɴʟʏ ᴏᴡɴᴇʀ</b></summary>
+<br>
+
+- `/broadcast` - broadcast message from the bot
+- `/block` - block people for using your bot
+- `/unblock` - unblock people you blocked for using your bot
+- `/blocklist` - show the list of all people who's blocked for using your bot
+</details>
+
+### Sudo Commands 🤭
+
+<details>
+<summary><b>ᴏɴʟʏ ᴏᴡɴᴇʀ</b></summary>
+<br>
+
+- `/broadcast` - broadcast message from the bot
+- `/block` - block people for using your bot
+- `/unblock` - unblock people you blocked for using your bot
+- `/blocklist` - show the list of all people who's blocked for using your bot
+</details>
+    
+### Only Owner 🙈
+
+<details>
+<summary><b>ᴏɴʟʏ ᴏᴡɴᴇʀ</b></summary>
+<br>
+
+- `/broadcast` - broadcast message from the bot
+- `/block` - block people for using your bot
+- `/unblock` - unblock people you blocked for using your bot
+- `/blocklist` - show the list of all people who's blocked for using your bot
+</details>
 
 </details>
 
