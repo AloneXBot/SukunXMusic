@@ -111,8 +111,8 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ѕυкυη χ мυ�
 - `/gban` - gban user
 - `/addsudo` - to add sudo
 - `/delsudo` - to remove user from sudo
-- `
-    
+- `/sudolist` - to check sudo users
+- `/speedtest` - to check the speed of bot.
 </details>
 
 <details>
