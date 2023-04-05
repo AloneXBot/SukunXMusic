@@ -125,10 +125,10 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ѕυкυη χ мυ�
 - `/blocklist` - show the list of all people who's blocked for using your bot
 </details>
 
-### Only Admin Can Exicute 🙄
+### sᴜᴋᴜɴ ᴀssᴇᴛs 🫣
 
 <details>
-<summary><b>ᴏɴʟʏ ᴏᴡɴᴇʀ</b></summary>
+<summary><b>ᴄᴏɴᴛᴀɪɴs ᴀʟʟ ᴛʜᴇ ғᴏɴᴛs ᴀɴᴅ ᴛʜᴜᴍʙ ʀᴇʟᴀᴛᴇᴅ ғɪʟᴇs </b></summary>
 <br>
 
 - `/broadcast` - broadcast message from the bot
