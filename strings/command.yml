@@ -10,14 +10,14 @@
 
 # Commands in Every Language
 
-# Bot Commands
+# sᴜᴋᴜɴ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs
 PING_COMMAND : ["ping", "zinda"]
 START_COMMAND : ["start", "sukun"]
-HELP_COMMAND : ["help"]
+HELP_COMMAND : ["help", "sukunhelp"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats"]
-STATS_COMMAND : ["stats"]
+STATS_COMMAND : ["stats", "TeamSukun"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
