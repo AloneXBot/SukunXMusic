@@ -108,7 +108,11 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ѕυкυη χ мυ�
 <br>
 
 - `/broadcast` - order the assistant to leave all groups
-- `/gban` - gban users
+- `/gban` - gban user
+- `/addsudo` - to add sudo
+- `/delsudo` - to remove user from sudo
+- `
+    
 </details>
 
 <details>
