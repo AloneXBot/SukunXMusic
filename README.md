@@ -19,7 +19,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ѕυкυη χ мυ�
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-> ⭐️ Thanks to everyone for using Shizuka,  🤭 That is the greatest pleasure we have !
+> ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ᴠɪsɪᴛɪɴɢ ʜᴇʀᴇ ᴀɴᴅ ᴀʟsᴏ sᴜᴘᴘᴏʀᴛɪɴɢ [ᴛᴇᴀᴍ sᴜᴋᴜɴ](https://t.me/TeamSukun) .ᴀʟsᴏ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛs](https://t.me/sukunsupports) ғᴏʀ ᴇᴅɪᴛɪɴɢ.
 
 
 ## Features Of Shizuka And Commands ❤️
