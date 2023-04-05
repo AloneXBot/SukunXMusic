@@ -77,6 +77,19 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ѕυкυη χ мυ�
 </details>
 
 <details>
+<summary><b>sᴜᴋᴜɴ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs</b></summary>
+<br>
+    
+- `/ping`or `/zinda` - ᴛᴏ ᴄʜᴇᴄᴋ ʙᴏᴛ ɪs ᴀʟɪᴠᴇ.
+- `/start` or `/sukun` - sᴛᴀʀᴛs ᴛʜᴇ ᴍᴜsɪᴄ ʙᴏᴛ.
+- `/help` or `/sukunhelp` - ɢᴇᴛ ʜᴇʟᴩ ᴍᴇɴᴜ ᴡɪᴛʜ ᴇxᴩʟᴀɴᴀᴛɪᴏɴ ᴏғ ᴄᴏᴍᴍᴀɴᴅs.
+- `/setting` or `/settings` - sʜᴏᴡs ᴛʜᴇ ɢʀᴏᴜᴩ sᴇᴛᴛɪɴɢs ᴡɪᴛʜ ᴀɴ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ɪɴʟɪɴᴇ ᴍᴇɴᴜ
+- `/reload` or `/admincache` - ᴛᴏ ʀᴇʟᴏᴀᴅ ᴀᴅᴍɪɴᴄᴀᴄʜᴇ .
+- `/gstats` - ᴛᴏ ɢᴇᴛ ᴛʜᴇ ɢʟᴏʙᴀʟ sᴛᴀᴛs.
+- `/stats` or `/TeamSukun` - sʜᴏᴡs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛs ᴏғ ᴛʜᴇ ʙᴏᴛ
+- `/lang` or `/language` or `/langs` - ᴛᴏ ᴄʜᴀɴɢᴇ ᴛʜᴇ ʟᴀɴɢᴜᴀɢᴇ ғʀᴏᴍ sᴜᴋᴜɴ
+ 
+<details>
 <summary><b>ᴀᴅᴍɪɴ ᴄᴍᴅs</b></summary>
 <br>
 
@@ -87,7 +100,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ѕυкυη χ мυ�
 - `/end` - stop music play
 - `/ping` - check the bot ping status
 - `/auth` - authorized people to access the admin commands
-- `/deauth` - deauthorized people to access the admin commands
+- `/unauth` - deauthorized people to access the admin commands
 </details>
 
 <details>
@@ -95,7 +108,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ѕυкυη χ мυ�
 <br>
 
 - `/broadcast` - order the assistant to leave all groups
-- `/gban` - gban user
+- `/gban` - gban users
 </details>
 
 <details>
