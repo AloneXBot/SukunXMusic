@@ -323,19 +323,35 @@ SpotifyAlbum.jpeg , SpotifyArtist.jpeg and SpotifyPlaylist.jpeg - This image is 
 4. `STRING_SESSION5` : Pyrogram Session Needed, Generate string from [@SukunStringBot](http://t.me/SukunStringBot) in Telegram.
 </details>
 
-### Only Owner 🙈
+### sᴜᴋᴜɴ ᴍᴜʟᴛɪ-ʟᴀɴɢᴜᴀɢᴇ sᴜᴘᴘᴏʀᴛ 🙈
 
 <details>
-<summary><b>ᴏɴʟʏ ᴏᴡɴᴇʀ</b></summary>
+<summary><b>sᴜᴋᴜɴ ᴍᴜʟᴛɪ-ʟᴀɴɢᴜᴀɢᴇ</b></summary>
 <br>
 
-- `/broadcast` - broadcast message from the bot
-- `/block` - block people for using your bot
-- `/unblock` - unblock people you blocked for using your bot
-- `/blocklist` - show the list of all people who's blocked for using your bot
-</details>
+- These all are the languages currently available in Sukun Music Bot. You can edit or change all strings available.
+
+| Code | Language | Contributor |
+|-|-------|-------|
+| en | sᴜᴋᴜɴ  | Thanks to [TeamSukun](https://t.me/TeamSukun)
+| si | Sinhala  | Thanks to [Damantha](https://t.me/MrItzme) & [Supun](https://t.me/Supunma)
+| hi | Hindi  | Thanks to [TeamYukki](https://t.me/TeamYukki)
+| ar | Arabic | Thanks to [Mustafa](https://t.me/tr_4z)
+| te | Telugu | Thanks to [Telugu Coders](https://t.me/tgshadow_fighters)
 
 </details>
+
+<details>
+<summary><b>ᴡᴀɴᴛ ᴛᴏ ʙᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀ</b></summary>
+<br>
+
+### We need your help in translating Sukun Music Bot. How to Contribute?
+
+You can edit [`en.yml`](https://github.com/TeamSukun/SukunXMusic/blob/master/strings/langs/en.yml) present in langs folder to your own language and send us the edited file at [@SukunSupport](https://t.me/SukunSupport)
+
+- > Points to remember while editing : <br> - Make sure you dont change any `{0}` or `{1}` while editing your codes <br> - Don’t change "general_1" or any other such keys present.
+</details>
+
 
 # ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
 
