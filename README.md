@@ -1,6 +1,8 @@
 <h1 align="center"><b> 𖢵 ѕυкυη χ мυѕι¢ 𖢵 </b></h1>
 
-<h4 align="center">Shizuka A Powerful, Smart And Simple Bot To Play Audio And Video Song In Telegram<br> ... Written With Python and Telethon...</h4>
+<img src="https://readme-typing-svg.herokuapp.com?color=F77247&width=420&lines=𝙰+𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖+Music+Totla+𝚂𝚘𝚞𝚛𝚌𝚎;𝚠𝚛𝚒𝚝𝚝𝚎𝚗+𝙸𝚗+Python+BY+@TeamSukun%E2%9D%A4%EF%B8%8F">
+
+</p>
 
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ѕυкυη χ мυѕι¢ ](https://t.me/sukunmusicrobot)**_
 
