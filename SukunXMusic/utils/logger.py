@@ -30,7 +30,7 @@ async def play_logs(message, streamtype):
 ╰⊚ **ᴜsᴇʀ:** {message.from_user.mention}
 ⧫━━━━━━━━━━━━━━━━━⧫
 ╭⎋ **sᴇᴀʀᴄʜ ᴛɪʏᴀ:** {message.text}
-╰⊚ **sᴛʀᴇᴀᴍᴛʏᴘᴇ** {streamtype}
+╰⊚ **sᴛʀᴇᴀᴍᴛʏᴘᴇ:** {streamtype}
 ❈•≫────≪•◦ ❈ ◦•≫────≪•❈"""
         if message.chat.id != LOG_GROUP_ID:
             try:
