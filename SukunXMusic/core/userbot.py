@@ -53,7 +53,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(__name__).info(f"Starting SukunXMusic Assistant Clients")
+        LOGGER(__name__).info(f"Starting Assistant Clients")
         if config.STRING1:
             await self.one.start()
             try:
@@ -65,7 +65,7 @@ class Userbot(Client):
             assistants.append(1)
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, f"{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.one.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
+                    config.LOG_GROUP_ID, "Assistant Started"
                 )
             except:
                 LOGGER(__name__).error(
@@ -83,7 +83,7 @@ class Userbot(Client):
             else:
                 self.one.name = get_me.first_name
             LOGGER(__name__).info(
-                f"SukunXMusic Assistant Started as {self.one.name}"
+                f"Assistant Started as {self.one.name}"
             )
         if config.STRING2:
             await self.two.start()
@@ -96,7 +96,7 @@ class Userbot(Client):
             assistants.append(2)
             try:
                 await self.two.send_message(
-                    config.LOG_GROUP_ID, f"{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ 2 sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.two.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.two.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
+                    config.LOG_GROUP_ID, "Assistant Started"
                 )
             except:
                 LOGGER(__name__).error(
@@ -114,7 +114,7 @@ class Userbot(Client):
             else:
                 self.two.name = get_me.first_name
             LOGGER(__name__).info(
-                f"SukunXMusic Assistant Two Started as {self.two.name}"
+                f"Assistant Two Started as {self.two.name}"
             )
         if config.STRING3:
             await self.three.start()
@@ -127,7 +127,7 @@ class Userbot(Client):
             assistants.append(3)
             try:
                 await self.three.send_message(
-                    config.LOG_GROUP_ID, f"{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ 3 sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.three.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.three.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
+                    config.LOG_GROUP_ID, "Assistant Started"
                 )
             except:
                 LOGGER(__name__).error(
@@ -145,7 +145,7 @@ class Userbot(Client):
             else:
                 self.three.name = get_me.first_name
             LOGGER(__name__).info(
-                f"SukunXMusic Assistant Three Started as {self.three.name}"
+                f"Assistant Three Started as {self.three.name}"
             )
         if config.STRING4:
             await self.four.start()
@@ -158,11 +158,11 @@ class Userbot(Client):
             assistants.append(4)
             try:
                 await self.four.send_message(
-                    config.LOG_GROUP_ID, f"{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ 4 sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.four.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.four.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
+                    config.LOG_GROUP_ID, "Assistant Started"
                 )
             except:
                 LOGGER(__name__).error(
-                    f"SukunXMusic Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    f"ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ 𝟺 ʜᴀs ғᴀɪʟᴇᴅ ᴛᴏ access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
                 )
                 sys.exit()
             get_me = await self.four.get_me()
@@ -176,7 +176,7 @@ class Userbot(Client):
             else:
                 self.four.name = get_me.first_name
             LOGGER(__name__).info(
-                f"SukunXMusic Assistant Four Started as {self.four.name}"
+                f"ᴀssɪsᴛᴀɴᴛ ғᴏᴜʀ sᴛᴀʀᴛᴇᴅ ᴀs {self.four.name}"
             )
         if config.STRING5:
             await self.five.start()
@@ -189,11 +189,11 @@ class Userbot(Client):
             assistants.append(5)
             try:
                 await self.five.send_message(
-                    config.LOG_GROUP_ID, f"{config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ 5 sᴛᴀʀᴛᴇᴅ.\n\n╭⎋ ɴᴀᴍᴇ : {self.five.name} .\n╰⊚ ᴜsᴇʀɴᴀᴍᴇ : @{self.five.username} .\n\nʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"
+                    config.LOG_GROUP_ID, "ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ"
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
+                    f"ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ 𝟻 ʜᴀs ғᴀɪʟᴇᴅ ᴛᴏ ᴀᴄᴄᴇss ᴛʜᴇ ʟᴏɢ ɢʀᴏᴜᴘ. ᴍᴀᴋᴇ sᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜ ʜᴀᴠᴇ ᴀᴅᴅᴇᴅ ʏᴏᴜʀ ᴀssɪsᴛᴀɴᴛ ᴛᴏ ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇᴅ ᴀs ᴀᴅᴍɪɴ! "
                 )
                 sys.exit()
             get_me = await self.five.get_me()
@@ -207,5 +207,5 @@ class Userbot(Client):
             else:
                 self.five.name = get_me.first_name
             LOGGER(__name__).info(
-                f"SukunXMusic Assistant Five Started as {self.five.name}"
+                f"ᴀssɪsᴛᴀɴᴛ ғɪᴠᴇ sᴛᴀʀᴛᴇᴅ ᴀs {self.five.name}"
             )
