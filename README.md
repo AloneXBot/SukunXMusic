@@ -475,15 +475,15 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 | 4. | 【𓆩𝐑𝐎𝐂𝐊𝐒𓆪】 ͢ ̶̶ͥ ̶ ̶ͣ ͓ ̶͓ͫ➳🇰ɾιʂԋɳα | ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ [🇰ɾιʂԋɳα](https://t.me/itz_rocks_krishna)
 | 5. | ᴘʏʀᴏɢʀᴀᴍ & ᴘʏ-ᴛɢᴄᴀʟʟs| Thanks to [ᴘʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram) & [ᴘʏ-ᴛɢᴄᴀʟʟs](https://github.com/pytgcalls/pytgcalls)
 
-- [sᴛᴀʀ ʙᴏɪ](https://telegram.dog/its_star_boi)
-- [ᴀsᴀᴅ ᴀʟɪ](https://telegram.dog/Dr_Asad_Ali)
-- [ʟᴏɢɪ ʟᴀʙ](https://github.com/LOGI-LAB)
-- [ʜᴀʀsʜɪᴛ](https://telegram.dog/HarshitSharma361)
-- [Abhimanyu](https://telegram.dog/Itz_Venom_xD)
-- [ᴍᴀssoᴍ](https://telegram.dog/Kattai_massom)
-- [](https://github.com/NotReallyShikhar)
-- [ᴀɴᴏɴʏᴍᴏᴜs](https://github.com/TheAnonymous2005)
-</details>
+
+
+
+
+
+
+
+
+
 
 <details>
 <summary><b>sᴜᴘᴘᴏʀᴛ</b></summary>
