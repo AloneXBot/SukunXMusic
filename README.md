@@ -431,7 +431,7 @@ You can edit [`en.yml`](https://github.com/TeamSukun/SukunXMusic/blob/master/str
 <summary><b>ᴅᴇᴘʟᴏʏ ᴛᴏ ᴠᴘs</b></summary>
 <br>
 
-- Get your [Necessary Variables](https://github.com/TeamSukun/SukunXMusic/blob/main/sample.env)
+- Get your [Necessary Variables](https://github.com/TeamSukun/SukunXMusic/blob/master/sample.env)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
