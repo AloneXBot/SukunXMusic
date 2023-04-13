@@ -467,6 +467,14 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 ## sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
 
+| Code | Language | Contributor |
+|-|-------|-------|
+| en | sᴜᴋᴜɴ  | Thanks to [TeamSukun](https://t.me/TeamSukun)
+| si | Sinhala  | Thanks to [Damantha](https://t.me/MrItzme) & [Supun](https://t.me/Supunma)
+| hi | Hindi  | Thanks to [TeamYukki](https://t.me/TeamYukki)
+| ar | Arabic | Thanks to [Mustafa](https://t.me/tr_4z)
+| te | Telugu | Thanks to [Telugu Coders](https://t.me/tgshadow_fighters)
+
 - [sᴛᴀʀ ʙᴏɪ](https://telegram.dog/its_star_boi)
 - [ᴀsᴀᴅ ᴀʟɪ](https://telegram.dog/Dr_Asad_Ali)
 - [ʟᴏɢɪ ʟᴀʙ](https://github.com/LOGI-LAB)
