@@ -482,6 +482,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 # ❤️ Support<
 <a href="https://telegram.dog/TeamSukun"><img src="https://img.shields.io/badge/Join-Team%20Sukun-red.svg?logo=Telegram"></a>
+<a href="https://telegram.dog/sukunupdates"><img src="https://img.shields.io/badge/Join-Sukun%20Updates-red.svg?logo=Telegram"></a>
 <a href="https://telegram.dog/sukunsupports"><img src="https://img.shields.io/badge/Join-Sukun%20Supports-blue.svg?logo=telegram"></a>
 
 </details>
