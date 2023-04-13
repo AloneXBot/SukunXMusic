@@ -488,10 +488,10 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </details>
 
 
-## ᴀᴄᴋɴᴏᴡʟᴇᴅɢᴇᴍᴇɴᴛs
+## sᴛᴀᴛs
 
 <details>
-<summary><b>ʟɪʙʀᴀʀɪᴇs</b></summary>
+<summary><b>ʟᴀɴɢᴜᴀɢᴇs ᴜsᴇᴅ</b></summary>
 <br>
 
 ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TeamSukun&theme=github_dark&layout=compact&exclude_repo=SukunXMusic.SukunId-AI.Shayachatbot.tag-all-bot.sukunban-all)
