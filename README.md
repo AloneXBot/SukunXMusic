@@ -458,7 +458,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 `screen bash start`
 <br>
 
-</details>
+</details> 
 
 # Owner And Credit)
 <details>
@@ -469,10 +469,10 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 | s.ɴᴏ | Language | Contributor |
 |-|-------|-------|
-| 1. | sᴜᴋᴜɴ  | Thanks to [TeamSukun](https://t.me/TeamSukun)
-| 2. | Sinhala  | Thanks to [Damantha](https://t.me/MrItzme) & [Supun](https://t.me/Supunma)
-| 3. | Hindi  | Thanks to [TeamYukki](https://t.me/TeamYukki)
-| 4. | Arabic | Thanks to [Mustafa](https://t.me/tr_4z)
+| 1. | sᴜᴋᴜɴ  | ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ [TeamSukun](https://t.me/TeamSukun)  ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ
+| 2. |  ͢ ̶̶ͥ ̶ ̶ͣ ͓ ̶͓ͫ➳⃝😻𝐊εεᴘ Lᴀᴜɢʜɪɴɢ 『 🇮🇳 』➻💕 | ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ [ʙɪʟʟᴜ](https://t.me/cute_billa_hu) & [ʜɪs sᴜᴘᴘᴏʀᴛ](https://t.me/Singing_music_idol_international)  ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ
+| 3. | ʏᴜᴋᴋɪ | Thanks to [TeamYukki](https://t.me/TeamYukki)
+| 4. | 【𓆩𝐑𝐎𝐂𝐊𝐒𓆪】 ͢ ̶̶ͥ ̶ ̶ͣ ͓ ̶͓ͫ➳🇰ɾιʂԋɳα | ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ [🇰ɾιʂԋɳα](https://t.me/itz_rocks_krishna)
 | 5. | Telugu | Thanks to [Telugu Coders](https://t.me/tgshadow_fighters)
 
 - [sᴛᴀʀ ʙᴏɪ](https://telegram.dog/its_star_boi)
