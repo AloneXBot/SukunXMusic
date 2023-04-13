@@ -474,16 +474,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 | 3. | 💖⃝͢ʏᴜᴋᴋɪ➻❥⃟💞ﮩﮩ٨࿐ | Thanks to [TeamYukki](https://t.me/TeamYukki)
 | 4. | 【𓆩𝐑𝐎𝐂𝐊𝐒𓆪】 ͢ ̶̶ͥ ̶ ̶ͣ ͓ ̶͓ͫ➳🇰ɾιʂԋɳα | ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ [🇰ɾιʂԋɳα](https://t.me/itz_rocks_krishna)
 | 5. | ᴘʏʀᴏɢʀᴀᴍ & ᴘʏ-ᴛɢᴄᴀʟʟs| Thanks to [ᴘʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram) & [ᴘʏ-ᴛɢᴄᴀʟʟs](https://github.com/pytgcalls/pytgcalls)
-
-
-
-
-
-
-
-
-
-
+</details>
 
 <details>
 <summary><b>sᴜᴘᴘᴏʀᴛ</b></summary>
