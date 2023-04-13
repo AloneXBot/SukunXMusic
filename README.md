@@ -493,8 +493,8 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 <summary><b>ʟɪʙʀᴀʀɪᴇs</b></summary>
 <br>
 
-ᴛʜᴀɴᴋs ᴛᴏ ᴀʟʟ ᴏғ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴀɴᴅ ᴍᴀᴋɪɴɢ sʜɪᴢᴜᴋᴀ:
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TeamSukun&theme=github_dark&layout=compact&exclude_repo=WilliamButcherBot,Telegram_VC_Bot,SpamProtectionRobot,GdriveSearcherBot,LunaChatBot)
 
-- []()
-- []()
+
+
 </details>
