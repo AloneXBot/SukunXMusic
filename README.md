@@ -469,11 +469,11 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 | s.ɴᴏ | Language | Contributor |
 |-|-------|-------|
-| 1. | sᴜᴋᴜɴ  | ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ [TeamSukun](https://t.me/TeamSukun)  ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ
-| 2. |  ͢ ̶̶ͥ ̶ ̶ͣ ͓ ̶͓ͫ➳⃝😻𝐊εεᴘ Lᴀᴜɢʜɪɴɢ 『 🇮🇳 』➻💕 | ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ [ʙɪʟʟᴜ](https://t.me/cute_billa_hu) & [ʜɪs sᴜᴘᴘᴏʀᴛ](https://t.me/Singing_music_idol_international)  ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ
-| 3. | ʏᴜᴋᴋɪ | Thanks to [TeamYukki](https://t.me/TeamYukki)
+| 1. | 「 ᴛᴇᴀᴍ ☯︎ sᴜᴋᴜɴ 」 | ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ [⍟ ᴛᴇᴀᴍ sᴜᴋᴜɴ ⍟](https://t.me/TeamSukun)  ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ
+| 2. |  ͢ ̶̶ͥ ̶ ̶ͣ ͓ ̶͓ͫ➳⃝😻𝐊εεᴘ Lᴀᴜɢʜɪɴɢ 『 🇮🇳 』➻💕 | ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ [⋗ ʙɪʟʟᴜ ⋖](https://t.me/cute_billa_hu) & [ʜɪs sᴜᴘᴘᴏʀᴛ](https://t.me/Singing_music_idol_international)  ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ
+| 3. | 💖⃝͢ʏᴜᴋᴋɪ➻❥⃟💞ﮩﮩ٨࿐ | Thanks to [TeamYukki](https://t.me/TeamYukki)
 | 4. | 【𓆩𝐑𝐎𝐂𝐊𝐒𓆪】 ͢ ̶̶ͥ ̶ ̶ͣ ͓ ̶͓ͫ➳🇰ɾιʂԋɳα | ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ [🇰ɾιʂԋɳα](https://t.me/itz_rocks_krishna)
-| 5. | Telugu | Thanks to [Telugu Coders](https://t.me/tgshadow_fighters)
+| 5. | ᴘʏʀᴏɢʀᴀᴍ & ᴘʏ-ᴛɢᴄᴀʟʟs| Thanks to [ᴘʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram) & [ᴘʏ-ᴛɢᴄᴀʟʟs](https://github.com/pytgcalls/pytgcalls)
 
 - [sᴛᴀʀ ʙᴏɪ](https://telegram.dog/its_star_boi)
 - [ᴀsᴀᴅ ᴀʟɪ](https://telegram.dog/Dr_Asad_Ali)
@@ -504,6 +504,6 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 ᴛʜᴀɴᴋs ᴛᴏ ᴀʟʟ ᴏғ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴀɴᴅ ᴍᴀᴋɪɴɢ sʜɪᴢᴜᴋᴀ:
 
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
+- []()
+- []()
 </details>
