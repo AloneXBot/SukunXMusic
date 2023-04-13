@@ -467,13 +467,13 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 
 ## sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
 
-| Code | Language | Contributor |
+| s.ɴᴏ | Language | Contributor |
 |-|-------|-------|
-| en | sᴜᴋᴜɴ  | Thanks to [TeamSukun](https://t.me/TeamSukun)
-| si | Sinhala  | Thanks to [Damantha](https://t.me/MrItzme) & [Supun](https://t.me/Supunma)
-| hi | Hindi  | Thanks to [TeamYukki](https://t.me/TeamYukki)
-| ar | Arabic | Thanks to [Mustafa](https://t.me/tr_4z)
-| te | Telugu | Thanks to [Telugu Coders](https://t.me/tgshadow_fighters)
+| 1. | sᴜᴋᴜɴ  | Thanks to [TeamSukun](https://t.me/TeamSukun)
+| 2. | Sinhala  | Thanks to [Damantha](https://t.me/MrItzme) & [Supun](https://t.me/Supunma)
+| 3. | Hindi  | Thanks to [TeamYukki](https://t.me/TeamYukki)
+| 4. | Arabic | Thanks to [Mustafa](https://t.me/tr_4z)
+| 5. | Telugu | Thanks to [Telugu Coders](https://t.me/tgshadow_fighters)
 
 - [sᴛᴀʀ ʙᴏɪ](https://telegram.dog/its_star_boi)
 - [ᴀsᴀᴅ ᴀʟɪ](https://telegram.dog/Dr_Asad_Ali)
@@ -481,7 +481,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 - [ʜᴀʀsʜɪᴛ](https://telegram.dog/HarshitSharma361)
 - [Abhimanyu](https://telegram.dog/Itz_Venom_xD)
 - [ᴍᴀssoᴍ](https://telegram.dog/Kattai_massom)
-- [ʏᴜᴋᴋɪ](https://github.com/NotReallyShikhar)
+- [](https://github.com/NotReallyShikhar)
 - [ᴀɴᴏɴʏᴍᴏᴜs](https://github.com/TheAnonymous2005)
 </details>
 
