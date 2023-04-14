@@ -53,11 +53,7 @@ async def speedtest_function(client, message):
   ➺ **__sᴩᴏɴsᴏʀ:__** {result['server']['sponsor']}
   ➺ **__ʟᴀᴛᴇɴᴄʏ:__** {result['server']['latency']}  
   ➺ **__ᴩɪɴɢ:__** {result['ping']}
-
-╭⎋ {MUSIC_BOT_NAME} 🫧
-╰⊚ sᴛᴀᴛᴜs: ᴏɴʟɪɴᴇ ✨
-
-ʀᴇᴘᴏ ɪs ᴇᴅɪᴛᴇᴅ ʙʏ [ᴛᴇᴀᴍ Sᴜᴋᴜɴ](https://t.me/sukunsupports)"""
+"""
     msg = await app.send_photo(
         chat_id=message.chat.id, 
         photo=result["share"], 
