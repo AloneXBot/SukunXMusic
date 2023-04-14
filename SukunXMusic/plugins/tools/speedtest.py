@@ -29,7 +29,7 @@ def testspeed(m):
         test.upload()
         test.results.share()
         result = test.results.dict()
-        m = m.edit("╭⎋ @cute_billa_hu\n╰⊚ @TeamSukun")
+        m = m.edit(".............")
     except Exception as e:
         return m.edit(e)
     return result
