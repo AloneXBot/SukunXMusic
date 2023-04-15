@@ -55,7 +55,7 @@ async def start_comm(client, message: Message, _):
             return await message.reply_text(_["song_2"])
         if name[0:3] == "sta":
             m = await message.reply_text(
-                "🔎 Fetching your personal stats.!"
+                "🥱 ɢᴇᴛᴛɪɴɢ ʏᴏᴜʀ ᴩᴇʀsᴏɴᴀʟ sᴛᴀᴛs ғʀᴏᴍ sᴇʀᴠᴇʀ.!"
             )
             stats = await get_userss(message.from_user.id)
             tot = len(stats)
@@ -91,7 +91,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[Telegram Files and Audios](https://t.me/telegram) ** played {count} times**\n\n"
+                        msg += f"🔗[Telegram Files and Audios](https://t.me/TeamSukun) ** played {count} times**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -131,7 +131,7 @@ async def start_comm(client, message: Message, _):
         if name[0:3] == "del":
             await del_plist_msg(client=client, message=message, _=_)
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎 Fetching Info!")
+            m = await message.reply_text("🙈 ɪɴғᴏ ɴɪᴋᴀʟ ʟᴀʜɪ ʜᴜ ʙᴀʙʏ ❤️")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -147,9 +147,10 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-🔍__**Video Track Information**__
-
-❇️**Title:** {title}
+┏━━━━━━━━━━━━━━━━━
+┠ 💘__**ᴛʀᴀᴄᴋ ɪɴғᴏ ʙᴀʙʏ**__
+┠━━━━━━━━━━━━━━━━━⧫
+┠ ❄️**ᴛɪᴛʟᴇ** {title}
 
 ⏳**Duration:** {duration} Mins
 👀**Views:** `{views}`
