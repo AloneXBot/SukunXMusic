@@ -147,27 +147,34 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-┏━━━━━━━━━━━━━━━━━
+┏━━━━━━━━━━━━━━━━━⊱
 ┠ 💘__**ᴛʀᴀᴄᴋ ɪɴғᴏ ʙᴀʙʏ**__
 ┠━━━━━━━━━━━━━━━━━⧫
-┠ ❄️**ᴛɪᴛʟᴇ** {title}
+┠ ❄️**ᴛɪᴛʟᴇ** 
+┠     ┗━━ {title}
+┠ 🫧**ᴅᴜʀᴀᴛɪᴏɴ** 
+┠     ┗━━ {duration} Mins
+┠ 👀**ᴠɪᴇᴡs**
+┠     ┗━━ `{views}`
+┠ 💗**ᴩᴜʙʟɪsʜᴇᴅ ᴏɴ**
+┠     ┗━━ {published}
+┠ ✌️**ᴄʜᴀɴɴᴇʟ**
+┠     ┗━━ {channel}
+┠ 📎**ᴄʜᴀɴɴᴇʟ ʟɪɴᴋ** 
+┠     ┗━━ [ʙᴀʙʏ ᴛᴏᴜᴄʜ ᴍᴇ ɴᴀ]({channellink})
+┠ 😇**ʟɪɴᴋ** 
+┠     ┗━━ [Link]({link})
+┗━━━━━━━━━━━━━━━━━⊱
 
-⏳**Duration:** {duration} Mins
-👀**Views:** `{views}`
-⏰**Published Time:** {published}
-🎥**Channel Name:** {channel}
-📎**Channel Link:** [Visit From Here]({channellink})
-🔗**Video Link:** [Link]({link})
-
-⚡️ __Searched Powered By {config.MUSIC_BOT_NAME}__"""
+😻 __{config.MUSIC_BOT_NAME} ʜᴇʟᴘ ᴋᴀʀᴛɪ ʀᴀʜᴜɴɢɪ ʙᴀʙʏ__"""
             key = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="🎥 Watch ", url=f"{link}"
+                            text="🎥 ʙᴀʙʏ ᴛᴏᴜᴄʜ ᴍᴇ", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="🔄 Close", callback_data="close"
+                            text="🤭 ᴄʟᴏsᴇ", callback_data="close"
                         ),
                     ],
                 ]
