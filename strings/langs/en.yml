@@ -26,14 +26,14 @@ call_10 : "Downloading Next Track from Playlist"
 call_11 : "Please add @{0} to your channel[ ID: {1}].\n\nBot is not able to get channel details."
 
 # PLUGINS - Auth.py
-auth_1 : "You can only have 20 Users in your group's Authorised Users List (AUL)"
-auth_2 : "Added to Authorised Users List of your group."
-auth_3 : "Already in the Authorised Users List."
-auth_4 : "Removed from Authorised Users List of this Group."
-auth_5 : "Targeted user is not an Authorised User."
-auth_6 : "Fetching Authorised Users... Please Wait"
-auth_7 : "**Authorised Users List[AUL]:**\n\n"
-auth_8 : "┗━━ Added By:-"
+auth_1 : "ʙᴀʙʏ ᴛᴜᴍ ɴᴀ ᴀᴘɴᴇ ɢᴜʟᴜᴘ ᴋᴇ ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ[ᴀᴜʟ] ᴍᴇ ɴᴀ sɪʀғ 20 ʜɪ ᴜsᴇʀs ᴀᴜʀ ᴍᴇʟᴇ ᴅᴇᴠᴀʀ ᴋᴏ ʀᴀᴋʜ sᴀᴋᴛᴇ ʜᴏ."
+auth_2 : "ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ ᴍᴇ ᴀᴅᴅ ᴋᴀʟ ᴅɪʏᴀ ʙᴀʙʏ."
+auth_3 : "ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ ᴍᴇ ᴘʜᴇʟᴇ sᴇ ʜ ʙᴀʙʏ."
+auth_4 : "ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ sᴇ ʀᴇᴍᴏᴠᴇ ᴋᴀʟ ᴅɪʏᴀ ʙᴀʙʏ."
+auth_5 : "ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ᴍᴇ ʏᴇʜ ɴᴏɪ ʜ ʙᴀʙʏ."
+auth_6 : "ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ᴍᴇ ʏᴇʜ ɴᴏɪ ʜ ʙᴀʙʏ"
+auth_7 : "ᴀᴜᴛʜᴏʀɪsᴇᴅ ᴜsᴇʀs ʟɪsᴛ[ᴀᴜʟ] :\n\n"
+auth_8 : "┗━━⊱ ᴀᴅᴅᴇᴅ ʙʏ:-"
 
 # PLUGINS - Admins
 admin_1 : "Music is already Paused."
