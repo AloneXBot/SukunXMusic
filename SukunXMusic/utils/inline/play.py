@@ -11,28 +11,38 @@ import random
 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-selections = [
-    "⍟—————————",
-    "⍟—————————",
-    "—⍟————————",
-    "—⍟————————",
-    "——⍟———————",
-    "——⍟———————",
-    "———⍟——————",
-    "———⍟——————",
-    "————⍟—————",
-    "————⍟—————",
-    "——————⍟———",
-    "————————⍟—",
-    "—————————⍟",
-]
-
+import config
+from SukunXMusic.utils.formatters import time_to_seconds
 
 ## After Edits with Timer Bar
 
 
 def stream_markup_timer(_, videoid, chat_id, played, dur):
-    bar = random.choice(selections)
+    played_sec = time_to_seconds(played)
+    duration_sec = time_to_seconds(dur)
+    percentage = (played_sec / duration_sec) * 100
+    sukun = math.floor(percentage)
+    if 0 < sukun <= 10:
+        bar = "⍟—————————"
+    elif 10 < sukun < 20:
+        bar = "—⍟————————"
+    elif 20 <= sukun < 30:
+        bar = "——⍟———————"
+    elif 30 <= sukun < 40:
+        bar = "———⍟——————"
+    elif 40 <= sukun < 50:
+        bar = "————⍟—————"
+    elif 50 <= sukun < 60:
+        bar = "—————⍟————"
+    elif 60 <= sukun < 70:
+        bar = "——————⍟———"
+    elif 70 <= sukun < 80:
+        bar = "———————⍟——"
+    elif 80 <= sukun < 90:
+        bar = "————————⍟—"
+    else:
+        bar = "—————————⍟"
+
     buttons = [
         [
             InlineKeyboardButton(
@@ -65,8 +75,32 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     return buttons
 
 
-def telegram_markup_timer(_, chat_id, played, dur):
-    bar = random.choice(selections)
+def stream_markup_timer(_, videoid, chat_id, played, dur):
+    played_sec = time_to_seconds(played)
+    duration_sec = time_to_seconds(dur)
+    percentage = (played_sec / duration_sec) * 100
+    sukun = math.floor(percentage)
+    if 0 < sukun <= 10:
+        bar = "⍟—————————"
+    elif 10 < sukun < 20:
+        bar = "—⍟————————"
+    elif 20 <= sukun < 30:
+        bar = "——⍟———————"
+    elif 30 <= sukun < 40:
+        bar = "———⍟——————"
+    elif 40 <= sukun < 50:
+        bar = "————⍟—————"
+    elif 50 <= sukun < 60:
+        bar = "—————⍟————"
+    elif 60 <= sukun < 70:
+        bar = "——————⍟———"
+    elif 70 <= sukun < 80:
+        bar = "———————⍟——"
+    elif 80 <= sukun < 90:
+        bar = "————————⍟—"
+    else:
+        bar = "—————————⍟"
+
     buttons = [
         [
             InlineKeyboardButton(
