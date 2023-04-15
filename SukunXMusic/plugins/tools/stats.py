@@ -283,7 +283,7 @@ async def overall_stats(client, CallbackQuery, _):
     cm = config.CLEANMODE_DELETE_MINS
     text = f"""
 ┏━━━━━━━━━━━━━━━━━⊱
-┠ {MUSIC_BOT_NAME} **sᴛᴀᴛs ᴀɴᴅ ɪɴғᴏ:**
+┠ 💌 **sᴛᴀᴛs ᴀɴᴅ ɪɴғᴏ**
 ┠━━━━━━━━━━━━━━━━━⧫
 ┠ 🤭 **ᴍᴏᴅᴜʟᴇs**
 ┠       ┗━━ {mod} 
