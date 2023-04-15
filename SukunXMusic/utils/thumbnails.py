@@ -102,7 +102,6 @@ async def gen_thumb(videoid):
         background = Image.open(f"cache/temp{videoid}.png")
         background.paste(logo, (width + 2, 136), mask=logo)
         circle = Image.open("assets/krishna.png")
-        background.paste(x, (710, 427), mask = x)
         background.paste(circle, (0, 0), mask = circle)
         
         draw = ImageDraw.Draw(background)
