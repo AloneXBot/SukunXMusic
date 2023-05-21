@@ -4,18 +4,18 @@
 
 </p>
 
-_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ѕυкυη χ мυѕι¢ ](https://t.me/sukunmusicrobot)**_
+_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ѕυкυη χ мυѕι¢ ](https://t.me/AloneXMusicBot)**_
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
-<p align="center"><a href="https://telegram.dog/TeamSukun"><img src="https://te.legra.ph/file/ee06625c3e3bb4596f0db.jpg" width="400"></a></p>
+<p align="center"><a href="https://telegram.dog/AloneXBot"><img src="https://te.legra.ph/file/ee06625c3e3bb4596f0db.jpg" width="400"></a></p>
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 <p align="center">
-    <a href="https://github.com/TeamSukun/SukunXMusic"> <img src="https://img.shields.io/github/repo-size/TeamSukun/SukunXMusic?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/TeamSukun/SukunXMusic/commits/prince"> <img src="https://img.shields.io/github/last-commit/TeamSukun/SukunXMusic?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/TeamSukun/SukunXMusic/issues"> <img src="https://img.shields.io/github/issues/its-star-boi/ShizukaXMusic?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://github.com/TeamSukun/SukunXMusic/network/members"> <img src="https://img.shields.io/github/forks/TeamSukun/SukunXMusic?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
+    <a href="https://github.com/AloneXBot/SukunXMusic"> <img src="https://img.shields.io/github/repo-size/AloneXBot/SukunXMusic?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/AloneXBot/SukunXMusic/commits/prince"> <img src="https://img.shields.io/github/last-commit/AloneXBot/SukunXMusic?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/AloneXBot/SukunXMusic/issues"> <img src="https://img.shields.io/github/issues/AloneXBot/SukunXMusic?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/AloneXBot/SukunXMusic/network/members"> <img src="https://img.shields.io/github/forks/AloneXBot/SukunXMusic?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
 </p>
 
@@ -424,7 +424,7 @@ You can edit [`en.yml`](https://github.com/TeamSukun/SukunXMusic/blob/master/str
     
 <h4> ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴅᴇᴘʟᴏʏ SukunXMusic ᴏɴ ʜᴇʀᴏᴋᴜ</h4> 
    
-<p><a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2Fits-star-boi%2FShizukaXMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/></a></p>
+<p><a href="https://dashboard.heroku.com/new?template=https://github.com/AloneXBot/SukunXMusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="200"/></a></p>
 </details>
 
 <details>
